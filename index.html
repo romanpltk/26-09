@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            
+        }
+        header{
+            height: 30vh;
+            background-color: orange;
+            padding-top: 5vh;
+        }
+        main{
+            height: 55vh;
+            padding: 50px;
+            
+        }
+        footer{
+            height: 20vh;
+            background-color: grey;
+        }
+        .block1{
+            width: 10vw;
+            border-radius: 0 15px 0 0;
+            display: inline-block;
+        }
+        .block{
+            height: 12vh;
+            background-color:orange;
+            border-radius: 0 15px 0 0;
+            border: 3px solid grey;
+        }
+        h5{
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        .price{
+            font-weight: bold;
+            text-align: right;
+        }
+        .label{
+            background-color:yellow;
+            width: 70%;
+            border-radius: 0 15px 15px 0;
+        }
+        h1{
+            font-size: 40px;
+            color:black;
+            text-align: center;
+        }
+        h2{
+            font-size: 35px;
+            color:white;
+            text-align: center;
+        }
+        h3{
+            font-size: 15px;
+            color:black;
+            text-align: center;
+        }
+        .text1{
+            width: 30vw;
+           
+            display: inline-block;
+            
+            padding: 10px;
+        }
+        .textin1{
+            color:black;
+            text-align: left;
+            margin: 0;
+            font-size: 25px;
+            
+        }
+        .dotted{
+            border-bottom: 3px dotted grey;
+        }
+        img{
+            float: right;
+            
+        }
+        .text2{
+            width: 30vw;
+           margin-left: 30vw;
+            display: inline-block;
+            
+            padding: 10px;
+            vertical-align: top;
+            
+        }
+        hr{
+            margin: 0;
+            border: 1px solid black;
+        }
+        .mainh3{
+            font-size: 20px;
+            margin-bottom: 3vh;
+            text-align: center;
+        }
+        .margin{
+            margin-left: 10vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sample Page</h1>
+        <h2>with CSS Box model</h2>
+        <h3>for students</h3>
+    </header>
+    <main>
+        <section class="text1"><h1 class="textin1"><span class="dotted">About Us</span></h1>
+            <img src="youtube.jpg" alt="#">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus, dolor id odio hic ratione fuga eius. Delectus voluptate cupiditate tempore maxime reprehenderit sit voluptatum ex? Necessitatibus nam laudantium dolore.
+
+       </p>
+       
+    </section>
+        <section class="text2"><h1 class="textin1"><span class="dotted">Our mission</span></h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ab quisquam maiores, officiis neque est consectetur? Reiciendis earum autem, vero quibusdam aut minus optio laudantium illo officia nesciunt eveniet architecto illum esse quia id repudiandae incidunt ut eaque culpa! Necessitatibus.</p></section>
+        <section><h3 class="mainh3"><span class="dotted">Popular Courses</span></h3>
+            <div class="block1">
+                <div class="block">
+                    <div class="label"> <p>TOP SALES</p></div>
+                   <h5>Wed Developer</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi.</p>
+                <p class="price">$23.99</p>
+            </div>
+            <div class="block1 margin">
+                <div class="block" style="background-color: red;">
+                    <div class="label"> <p>NEW!</p></div>
+                   <h5>JavaScript Developer</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi.</p>
+                <p class="price">$24.99</p>
+            </div>
+            <div class="block1 margin">
+                <div class="block" style="background-color:blue;">
+                    <div class="label"> <p>MOST POPULAR</p></div>
+                   <h5>FrontEnd Developer</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi.</p>
+                <p class="price">$27.99</p>
+            </div>
+            <div class="block1 margin">
+                <div class="block" style="background-color: blueviolet;">
+                    <div class="label"> <p>SUPER SALE!</p></div>
+                   <h5>Modern Web Design</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi.</p>
+                <p class="price">$39.99</p>
+            </div>
+            <div class="block1 margin">
+                <div class="block" style="background-color:green;">
+                    <div class="label"> <p>MOST POPULAR</p></div>
+                   <h5>CSS Complete Course</h5>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nisi.</p>
+                <p class="price">$23.99</p>
+            </div></section>
+    </main><hr>
+    <footer>
+        
+    </footer>
+</body>
+</html>
